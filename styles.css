@@ -1,0 +1,152 @@
+
+/* Reset some default browser styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+}
+
+header {
+    background: black;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 20px;
+}
+
+nav ul li a {
+    color :white ; 
+    text-decoration: none;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+}
+
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#signup {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#signup h1 {
+    text-align: center;
+}
+
+#signup form {
+    display: flex;
+    flex-direction: column;
+}
+
+#signup label {
+    margin-top: 10px;
+}
+
+#signup input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#signup button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#signup button:hover {
+    background-color: #ff4500;
+}
+
+
+
+/* signin Styles */
+#signin {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#signin h1 {
+    text-align: center;
+}
+
+#signin form {
+    display: flex;
+    flex-direction: column;
+}
+
+#signin label {
+    margin-top: 10px;
+}
+
+#signin input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#signin button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#signin button:hover {
+    background-color: #ff4500;
+}
+
